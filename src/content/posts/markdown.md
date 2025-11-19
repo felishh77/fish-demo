@@ -1,7 +1,7 @@
 ---
 title: Markdown Example
-published: 2024-12-02
-updated: 2024-12-02
+published: 2024-10-02
+updated: 2024-10-02
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Demo]
 category: Examples
@@ -15,9 +15,9 @@ Markdown is a plain text format for writing structured documents, based on conve
 
 ## Emphasis
 
-*italic: use `*` or `_`*
+_italic: use `_`or`\_`\*
 
-**bold: use `**` or `__`**
+**bold: use `**`or`\_\_`\*\*
 
 ~~Strikethrough: use `~~`~~
 

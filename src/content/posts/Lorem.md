@@ -1,8 +1,8 @@
 ---
 title: Lorem Ipsum
 description: Anim dolor incididunt ex sunt commodo veniam deserunt consequat cupidatat incididunt.
-published: 2024-05-01
-updated: 2024-05-01
+published: 2025-11-01
+updated: 2025-11-01
 category: "Examples"
 tags: [Demo, Example]
 draft: false

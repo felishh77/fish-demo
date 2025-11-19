@@ -12,8 +12,8 @@ importers:
         specifier: ^5.14.1
         version: 5.15.9(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       astro-fish:
-        specifier: ^0.4.1
-        version: 0.4.1(@iconify-json/simple-icons@1.2.59)(@iconify-json/solar@1.2.5)(astro@5.15.9(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(prettier@3.6.2)(typescript@5.9.3)
+        specifier: ^0.5.0
+        version: 0.5.0(@iconify-json/simple-icons@1.2.59)(@iconify-json/solar@1.2.5)(astro@5.15.9(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(prettier@3.6.2)(typescript@5.9.3)
 
 packages:
 
@@ -777,8 +777,8 @@ packages:
     resolution: {integrity: sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg==}
     engines: {node: '>=4'}
 
-  astro-fish@0.4.1:
-    resolution: {integrity: sha512-Nzv7R+17jrXQQHvLfs+HkeW66wEbk8Ky+RY5ujXyvhTCNdtP7Id1ZFFjx3+zlTISi52mk3/9wkys9Nj79FGR9Q==}
+  astro-fish@0.5.0:
+    resolution: {integrity: sha512-hLcbF+ZSnLeyIO7cumnZbIQyai8KoIP9DR7lVIcIwdDR08Gq2TiZ9tG3rVsIPpL8nbx0x+s4Ch6yUj1IIH0I8g==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@iconify-json/simple-icons': ^1.2.0
@@ -3285,7 +3285,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-fish@0.4.1(@iconify-json/simple-icons@1.2.59)(@iconify-json/solar@1.2.5)(astro@5.15.9(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(prettier@3.6.2)(typescript@5.9.3):
+  astro-fish@0.5.0(@iconify-json/simple-icons@1.2.59)(@iconify-json/solar@1.2.5)(astro@5.15.9(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(prettier@3.6.2)(typescript@5.9.3):
     dependencies:
       '@astrojs/rss': 4.0.13
       '@astrojs/sitemap': 3.6.0

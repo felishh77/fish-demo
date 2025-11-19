@@ -1,7 +1,7 @@
 ---
 title: Markdown Extended Features
-published: 2024-12-01
-updated: 2024-12-22
+published: 2025-11-02
+updated: 2024-11-02
 description: "Read more about Markdown features"
 tags: [Demo, Markdown, Feature]
 category: "Examples"
@@ -18,9 +18,11 @@ Only the first matching heading will generate the table of contents.
 ```markdown
 ## Table of contents
 ```
+
 ```markdown
 ## toc
 ```
+
 ```markdown
 ## contents
 ```
@@ -95,7 +97,7 @@ This is a note with a custom title.
 :::
 ```
 
-> [!TIP] 
+> [!TIP]
 > [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
 
 ```
@@ -153,34 +155,33 @@ We support the following features:
 
 The reference for you might need: [shiki transformers](https://shiki.style/packages/transformers)
 
-
 ```ts twoslash title="TypeScript Twoslash"
 // @errors: 2540
 interface Todo {
-  title: string
+  title: string;
 }
 
 const todo: Readonly<Todo> = {
-  title: 'Go to bed early'.toUpperCase(),
-//  ^?
-}
+  title: "Go to bed early".toUpperCase(),
+  //  ^?
+};
 
-todo.title = 'Go to bed Right now'.toUpperCase()
+todo.title = "Go to bed Right now".toUpperCase();
 
-Number.parseInt('123', 10)
+Number.parseInt("123", 10);
 //      ^|
 ```
 
 Custom twoslash message
-```ts twoslash
-const log = "custom message"
-// @log: You can use `// @log message` to make custom message
-type type = "log" | "error" | "warn" | "annotate"
-// @annotate: `@error` `@warn` and `@annotate` are also supported
-const cat_touch_water = "cat" + "water"
-// @warn: Cat couldn't touch water
-const perpetual_motion_machine = "cat" + "butter" 
-// @error: It can't be done
-const twoslash = "https://www.typescriptlang.org/dev/twoslash/"
-```
 
+```ts twoslash
+const log = "custom message";
+// @log: You can use `// @log message` to make custom message
+type type = "log" | "error" | "warn" | "annotate";
+// @annotate: `@error` `@warn` and `@annotate` are also supported
+const cat_touch_water = "cat" + "water";
+// @warn: Cat couldn't touch water
+const perpetual_motion_machine = "cat" + "butter";
+// @error: It can't be done
+const twoslash = "https://www.typescriptlang.org/dev/twoslash/";
+```
