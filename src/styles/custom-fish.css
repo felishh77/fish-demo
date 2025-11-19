@@ -1,0 +1,7 @@
+html.fish body {
+  /* your custom css */
+}
+
+html.fish.dark body {
+  /* your custom css for dark mode */
+}
